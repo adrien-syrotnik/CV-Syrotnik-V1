@@ -1,7 +1,12 @@
-#pp{
-	width : 50%;
-	margin : 3px;
-	padding : 5px;
+/* Please do not use this import in production. You could download this font from here https://fontstorage.com/font/comfortaa */
+@import "http://fonts.fontstorage.com/import/comfortaa.css";
+/*
+	Comfortaa, 300, 400, 700
+*/
+
+
+body {
+	font-family: "Comfortaa";
 }
 
 #pp:hover {
@@ -23,6 +28,27 @@ div{
 em {
 	text-decoration: underline;
 }
+
+
+.exp-show:hover {
+	
+	transform: translate(-200%, 0);
+}
+
+.exp-show {
+	transform: translate(-70%, 0);
+	transition: transform 2s;
+	clip-path: polygon(0% 0%, 72% 0, 86% 48%, 73% 100%, 0% 100%);
+}
+
+.fond {
+	
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
 
 
 @keyframes float {
