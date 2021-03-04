@@ -1,12 +1,21 @@
 /* Please do not use this import in production. You could download this font from here https://fontstorage.com/font/comfortaa */
 @import "http://fonts.fontstorage.com/import/comfortaa.css";
+/* Please do not use this import in production. You could download this font from here https://fontstorage.com/font/gabriela */
+@import "http://fonts.fontstorage.com/import/gabriela.css";
 /*
-	Comfortaa, 300, 400, 700
+	Gabriela, 400
+*/
+/* Please do not use this import in production. You could download this font from here https://fontstorage.com/font/barkentina */
+@import "http://fonts.fontstorage.com/import/barkentina.css";
+/*
+	Barkentina, 400
 */
 
 
+
 body {
-	font-family: "Comfortaa";
+	/*font-family: "Comfortaa";*/
+	font-family: Georgia, serif;;
 }
 
 #pp {
