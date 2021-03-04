@@ -47,11 +47,11 @@ em {
 
 .exp-show:hover {
 	
-	transform: translate(-200%, 0);
+	transform: translate(-100%, -100%);
 }
 
 .exp-show {
-	transform: translate(-70%, 0);
+	transform: translate(0, -100%);
 	transition: transform 2s;
 	clip-path: polygon(0% 0%, 72% 0, 86% 48%, 73% 100%, 0% 100%);
 }
