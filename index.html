@@ -4,11 +4,14 @@
 <head>
 	<meta charset='utf-8'>
 	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<meta name="theme-color" content="#03a9f4">
 	<title>SYROTNIK - CV</title>
 	<meta name='viewport' content='width=device-width, initial-scale=1'>
 
+	<link rel="manifest" href="manifest.json">
 
 	<link rel="icon" href="Image/photo.ico" />
+	<link rel="apple-touch-icon" href="Image/photo.png" />
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
 		integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
@@ -30,6 +33,28 @@
 	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 
 	<script src="SYROTNIK.js"></script>
+
+
+	<script>
+		if ("serviceWorker" in navigator) {
+
+			window.addEventListener('load', function() {
+				navigator.serviceWorker.register('/sw.js').then(
+					function(registration) {
+						console.log('registration succes with scope : ', registration.scope)
+					},
+					function (err) {
+						console.log('errror', err)
+					})
+
+			})
+
+    
+		}
+
+
+
+	</script>
 
 </head>
 
@@ -77,7 +102,7 @@
 				<p>Projets et méthode "PBL", grâce à tout cela, CESI me permet d'augmenter en autonomie, en compétence
 					et en travail en groupe efficacement.</p>
 			</div>
-			<div class="col-lg-3 col-md-12 container my-3" style="">
+			<div class="col-lg-3 col-md-12 container my-3">
 				<div class="row">
 					<div class="col text-center">
 						<img src="Image/logo-CESI.png" id="pp" class="w-50">
@@ -86,7 +111,7 @@
 				<div class="row">
 					<div class="col">
 						<p class="text-center">BAC SI</p>
-						<p class="text-center mt-n3" style="">15,21 / 20</p>
+						<p class="text-center mt-n3">15,21 / 20</p>
 					</div>
 				</div>
 			</div>
@@ -254,7 +279,7 @@
 			</div>
 		</div>
 
-		
+
 
 
 

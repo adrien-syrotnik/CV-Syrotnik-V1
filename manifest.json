@@ -1,0 +1,28 @@
+
+{
+"name": "CV Adrien SYROTNIK",
+ "short_name": "CV Adrien S",
+ "start_url": "./index.html",
+ "display": "standalone",
+ "background_color": "#03a9f4",
+ "theme_color" : "#03a9f4",
+ "orientation": "portrait-primary",
+ "icons": [
+ {
+ "src": "./image/photo.png",
+ "type": "image/png",
+ "sizes": "512x512",
+ "purpose": "maskable"
+ },
+ {
+    "src": "./image/photo.png",
+    "type": "image/png",
+    "sizes": "512x512",
+    "purpose": "any"
+    }
+ ]
+ 
+}
+
+
+
