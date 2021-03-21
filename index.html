@@ -38,9 +38,9 @@
 	<script>
 		if ("serviceWorker" in navigator) {
 
-			window.addEventListener('load', function() {
+			window.addEventListener('load', function () {
 				navigator.serviceWorker.register('/sw.js').then(
-					function(registration) {
+					function (registration) {
 						console.log('registration succes with scope : ', registration.scope)
 					},
 					function (err) {
@@ -49,7 +49,7 @@
 
 			})
 
-    
+
 		}
 
 
@@ -427,13 +427,15 @@
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<div class="row text-center mt-5" data-aos="zoom-out">
-		<div class="col">
-			<h1>Loisirs</h1>
+		<div class="row text-center mt-5" data-aos="zoom-out">
+			<div class="col">
+				<h1>Loisirs</h1>
+			</div>
 		</div>
 	</div>
+
+	
 	<div class="container">
 		<div class="row justify-content-around text-center mt-5" style="overflow: visible;">
 			<div class="col-lg-2 pt-4 pb-3 col-md-8" style="animation: float 3s ease-in-out infinite;
@@ -487,9 +489,8 @@
 				<i class="fas fa-phone-alt fa-3x"></i></br>07 68 79 92 38
 			</div>
 			<div class="col-lg-2 col-md-12 mb-3">
-				<a
-					href="https://www.google.fr/maps/place/51140+Jonchery-sur-Vesle/@49.2875552,3.8134372,15z/data=!3m1!4b1!4m5!3m4!1s0x47e90838caf1ecad:0xe20adf14b95a7e0c!8m2!3d49.287571!4d3.813746" target="_blank"><i
-						class="fas fa-map-marker-alt fa-3x" target="_blank"></i></a></br>51140,
+				<a href="https://www.google.fr/maps/place/51140+Jonchery-sur-Vesle/@49.2875552,3.8134372,15z/data=!3m1!4b1!4m5!3m4!1s0x47e90838caf1ecad:0xe20adf14b95a7e0c!8m2!3d49.287571!4d3.813746"
+					target="_blank"><i class="fas fa-map-marker-alt fa-3x" target="_blank"></i></a></br>51140,
 				Jonchery-sur-Vesle
 			</div>
 

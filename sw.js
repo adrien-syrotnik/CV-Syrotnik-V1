@@ -1,7 +1,7 @@
 /*importScripts('sw-toolbox.js');
 toolbox.precache(['index.html', 'SYROTNIK.css', 'SYROTNIK.js']);
 toolbox.router.get('/*', toolbox.networkFirst, { networkTimeoutSeconds: 5});*/
-const staticCacheName = 'site-static-v1';//
+const staticCacheName = 'site-static-v2';//
 const dynamicCache = 'site-dynamic-v1';
 const assets = [
     '/',
