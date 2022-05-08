@@ -8,13 +8,15 @@ $('document').ready(function() {
     });
 
 
-    var typed = new Typed('#Points', {
-        strings: ["..."],
-        typeSpeed: 300,
-        showCursor: false,
-        loop: true
-    });
+    // var typed = new Typed('#Points', {
+    //     strings: ["..."],
+    //     typeSpeed: 300,
+    //     showCursor: false,
+    //     loop: true
+    // });
 
+    var age = new Date(Date.now() - new Date("2001-10-27").getTime()).getUTCFullYear() - 1970;
+    document.getElementById("age").innerHTML = age + " ans";
 
     AOS.init();
 
